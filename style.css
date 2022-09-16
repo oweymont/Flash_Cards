@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  background-image: url("/img/garage_builder.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no repeat;
+  background-color: steelblue;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(214, 211, 211);
+  font-size: 3.0rem;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 5px 5px rgba(0, 0, 0, .15)
+}
+.title {
+  text-align: center;
+  font-size: 2.0rem;
+  color: rgb(13, 13, 168);
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(245,245,245,.6);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+
+}
+.btn-text {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: steelblue;
+  color: white;
+}
+p {
+  text-align: center;
+  font-size: 1.0rem;
+  color: white;
+}
+.change-mode {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+
